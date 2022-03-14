@@ -42,7 +42,7 @@ public class Assertions {
 
 		//Assert.assertEquals(driver.findElement(By.cssSelector("div[class='login-container'] h2")).getText(),"Hello "+name+",");
 		Assert.assertEquals(driver.findElement(By.xpath("//*[@class='login-container']/h2")).getText(),"Hello "+name+",");
-
+System.out.println("changes");
 		driver.findElement(By.xpath("//*[text()='Log Out']")).click();
 
 		driver.close();

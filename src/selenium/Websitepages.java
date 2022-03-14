@@ -23,6 +23,7 @@ driver.manage().window().maximize();
 driver.findElement(By.xpath("//input[@class='inputtext _55r1 _6luy']")).sendKeys("pradeepdeepu497@gmail.com");
 //driver.findElement(By.cssSelector(id.email).sendKeys("pradeepdeepu497@gmail.com");
 driver.findElement(By.cssSelector("input[id='pass']")).sendKeys("Pradeep@50");
+System.out.println("changes");
 
 
 //driver.findElement(By.name("login")).click();

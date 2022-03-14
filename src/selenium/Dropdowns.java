@@ -25,6 +25,7 @@ public class Dropdowns {
 		//		dropdown.selectByIndex(1);
 //		dropdown.selectByVisibleText("USD");
 		System.out.println(dropdown.getFirstSelectedOption().getText());
+		System.out.println("changes");
 		
 	}
 
