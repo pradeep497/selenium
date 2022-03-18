@@ -24,6 +24,9 @@ public class Siblings {
 		System.out.println("git demo");
 		System.out.println("changes");
 		System.out.println("gitdemo");
+		System.out.println("gitdemo1");
+		System.out.println("gitdemo2");
+		System.out.println("gitdemo3");
 
 
 		System.out.println(driver.findElement(By.xpath("//header/div/button[1]/parent::div/button[2]")).getText());
